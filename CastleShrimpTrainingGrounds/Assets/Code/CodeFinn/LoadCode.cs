@@ -36,21 +36,7 @@ public class LoadCode : MonoBehaviour
      }
 
      }
-
-    //private Vector3 StringToVector3(string line)
-    //  {
-    // Vector3 vector3 = new Vector3();
-    //  string x =line.Substring(1, line.IndexOf(".") - 1);
-    //string y =line.Substring(x.Length + 3, line.Substring(x.Length + 3).IndexOf(","));
-    // y = y.Trim(' ');
-    // y = y.Trim(',');
-    // string z = line.Substring(x.Length + y.Length + 5, line.Substring(x.Length +y.Length + 5).IndexOf(")"));
-    // z = z.Trim(' ');
-    // z = z.Trim(',');
-    // vector3.x = float.Parse(x);
-    // vector3.y = float.Parse(y);
-    // return vector3;
-    // }
+    
     private Vector3 StringToVector3(string line)
     {
         if (string.IsNullOrWhiteSpace(line))

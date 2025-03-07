@@ -12,19 +12,6 @@ public class SaveCode : MonoBehaviour
      {
        SavePosition();
      }
-    //private void SavePosition()
-    //{
-    // Transform player = GameObject.FindGameObjectWithTag("Player").transform;
-
-    // Debug.Log("Saved Position to: " + filePath + posFileName);
-
-    // File.Delete(Path.Combine(filePath, posFileName));
-
-    // using (StreamWriter outputFile = new StreamWriter(Path.Combine(filePath, posFileName), true))
-    // {
-    //     outputFile.WriteLine(player.position);
-    // }
-    // }
     private void SavePosition()
     {
         Transform player = GameObject.FindGameObjectWithTag("Player").transform;
