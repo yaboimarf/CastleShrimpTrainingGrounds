@@ -9,12 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5a8a3364f307124fa34ef8cb82bb737, type: 3}
-  m_Name: Sword
+  m_Script: {fileID: 11500000, guid: 0f8e508622b63e24083705b300713353, type: 3}
+  m_Name: New Dynamic Inventory
   m_EditorClassIdentifier: 
-  itemName: Sword
-  icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  model: {fileID: 0}
-  itemDescription: An ordinary sword.
-  startingAmmo: 0
-  startingCondition: 10
+  maxItems: 10
+  items:
+  - itemType: {fileID: 0}
+    condition: 0
+    ammo: 0
+    newItemType: {fileID: 0}
+    items: []
