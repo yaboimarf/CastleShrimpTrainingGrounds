@@ -24,7 +24,7 @@ public class PlayerBehavior: MonoBehaviour
     public float jumpHeight;
     //public BubbleBehavior bubbleBehavior;
 
-    public int hp;
+    public float hp;
     public int playerStrenght;
     public void Start()
     {
