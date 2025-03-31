@@ -1638,7 +1638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1104772121}
-  - component: {fileID: 1104772120}
+  - component: {fileID: 1104772122}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -1646,18 +1646,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1104772120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1104772119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64188aea6d813984eb58c718695a1e5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1104772121
 Transform:
   m_ObjectHideFlags: 0
@@ -1673,6 +1661,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1104772122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104772119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64188aea6d813984eb58c718695a1e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadButton: {fileID: 1253319138}
 --- !u!1 &1253319135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1830,7 +1831,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1288168391}
-  - component: {fileID: 1288168390}
+  - component: {fileID: 1288168392}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1838,18 +1839,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1288168390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288168389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a89de03b53e52c4eb45dd80106a2da3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1288168391
 Transform:
   m_ObjectHideFlags: 0
@@ -1865,6 +1854,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1288168392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288168389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a89de03b53e52c4eb45dd80106a2da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveButton: {fileID: 1727820793}
 --- !u!1 &1452282966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,7 +2032,7 @@ MonoBehaviour:
   interactionDistance: 0
   rb: {fileID: 0}
   jumpHeight: 0
-  hp: 0
+  hp: 10
   playerStrenght: 0
 --- !u!114 &1553385647
 MonoBehaviour:

@@ -7,10 +7,11 @@ using UnityEngine.UI;
 public class Save : MonoBehaviour
 {
     private string savePath;
-    public Button saveButton; // Assign this in Inspector
+    public Button saveButton;
     private PlayerBehavior player;
 
     [System.Serializable]
+
     private class PlayerData
     {
         public float[] position = new float[3];
@@ -35,6 +36,7 @@ public class Save : MonoBehaviour
             saveButton.onClick.AddListener(SaveGame);
         }
     }
+
     void SaveGame()
     {
         if (player != null)
@@ -45,6 +47,7 @@ public class Save : MonoBehaviour
             Debug.Log("Kevin's data saved!");
         }
     }
+
 
     // Update is called once per frame
     void Update()
