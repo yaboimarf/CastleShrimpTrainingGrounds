@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tunnel up and down1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a26f0711a1f9aaf42a48429c7975f0b9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
