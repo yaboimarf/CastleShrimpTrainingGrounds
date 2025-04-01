@@ -16,7 +16,7 @@ public class animation : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            M_Animator.SetTrigger("Jump");
+            M_Animator.SetTrigger("jump");
         }
 
         if (Input.GetKey(KeyCode.W))

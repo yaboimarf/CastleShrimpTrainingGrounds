@@ -18,10 +18,10 @@ public class Load : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()  // Deze methode wordt uitgevoerd als het script voor het eerst start in Unity
+    void Start()  
     {
-        savePath = Path.Combine(Application.persistentDataPath, "kevinData.json");  // Maakt een bestandspad naar "kevinData.json" in een permanente map
-        player = GameObject.Find("Kevin").GetComponent<PlayerBehavior>();  // Zoekt een GameObject genaamd "Kevin" en haalt zijn PlayerBehavior-component op
+        savePath = Path.Combine(Application.persistentDataPath, "kevin2Data.json");  // Maakt een bestandspad naar "kevinData.json" in een permanente map
+        player = GameObject.Find("Kevin2").GetComponent<PlayerBehavior>();  // Zoekt een GameObject genaamd "Kevin" en haalt zijn PlayerBehavior-component op
 
         if (loadButton != null)  // Controleert of de loadButton is ingesteld (niet null)
         {
@@ -44,7 +44,7 @@ public class Load : MonoBehaviour
 
             player.transform.position = position;  // Stelt de positie van "Kevin" in op de geladen positie
             player.hp = data.health;  // Stelt de gezondheid van "Kevin" in op de geladen gezondheid
-            Debug.Log("Kevin's data loaded!");  // Geeft een bericht in de Unity-console dat de gegevens zijn geladen
+            Debug.Log("Kevin2's data loaded!");  // Geeft een bericht in de Unity-console dat de gegevens zijn geladen
         }
         else 
         {
