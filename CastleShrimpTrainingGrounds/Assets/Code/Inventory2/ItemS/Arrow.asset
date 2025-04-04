@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: arrow
   icon: {fileID: 21300000, guid: d49a070b087576544aa5a9ae6f45c85b, type: 3}
-  prefab: {fileID: 0}
+  prefab: {fileID: 2189116107648594399, guid: cc6c9cfcc0de9474482421238cdda80e, type: 3}
   maxStackSize: 16

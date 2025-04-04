@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Burst.CompilerServices;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerBehavior: MonoBehaviour
@@ -24,6 +25,9 @@ public class PlayerBehavior: MonoBehaviour
     public float jumpHeight;
     //public BubbleBehavior bubbleBehavior;
 
+    public GameObject arrow;
+    public Transform spawnposition;
+
     public float hp;
     public int playerStrenght;
     public void Start()
@@ -37,6 +41,10 @@ public class PlayerBehavior: MonoBehaviour
         Jump();
         CamMovement();
         //DistantTrigger();
+        if (Input.GetMouseButtonUp(0))
+        {
+            Shoot();
+        }            
     }
     public void BodyMovement()
     {
@@ -82,5 +90,11 @@ public class PlayerBehavior: MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    public void Shoot()
+    {
+        Instantiate(arrow, spawnposition);
+        //arrow.GetComponent<Rigidbody>
+        Debug.Log("IkSpawn");            
     }
 }
